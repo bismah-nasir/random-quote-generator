@@ -1,0 +1,80 @@
+:root{
+  --white: #FFFFFF;
+  --light-pink: #F090BF;
+  --dark-pink: #E564A4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  background: var(--light-pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  max-width: 700px;
+  min-width: 500px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background: var(--dark-pink);
+  width: 100%;
+  border-radius: 15px;
+  color: white;
+}
+
+.heading{
+  font-size: 30px;
+}
+
+.loading {
+  color: white;
+  font-size: 20px;
+}
+
+.quote{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.line{
+  width: 80%;
+  height: 1.5px;
+  background: var(--light-pink)
+}
+
+.author{
+  font-size: 22px;
+  color: var(--white);
+}
+
+.btn{
+  color: var(--white);
+  background-color: var(--dark-pink);
+  font-size: 20px;
+  width: 35%;
+  padding: 10px;
+  border: 2px solid var(--light-pink);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: var(--light-pink);
+}
